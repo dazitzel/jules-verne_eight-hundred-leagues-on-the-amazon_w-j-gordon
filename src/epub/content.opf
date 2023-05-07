@@ -27,6 +27,7 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.1 Level AA.</meta>
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Eight Hundred Leagues on the Amazon</dc:title>
+		<meta property="dcterms:alternate" refines="#title">800 Leagues on the Amazon</meta>
 		<meta property="file-as" refines="#title">Eight Hundred Leagues on the Amazon</meta>
 		<dc:subject id="subject-1">Adventure and adventurers -- Fiction</dc:subject>
 		<dc:subject id="subject-2">Voyages and travels -- Fiction</dc:subject>
@@ -64,6 +65,7 @@
 		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Jules_Verne</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79064013</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator">W. J. Gordon</dc:contributor>
 		<meta property="file-as" refines="#translator">Gordon, W. J.</meta>
