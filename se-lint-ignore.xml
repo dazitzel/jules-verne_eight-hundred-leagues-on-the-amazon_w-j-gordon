@@ -6,10 +6,4 @@
 			<reason>These consecutive quotations are in the source page images to indicate two characters speaking at the same time.</reason>
 		</ignore>
 	</file>
-	<file path="chapter-2-14.xhtml">
-		<ignore>
-			<code>t-029</code>
-			<reason>These full stops indicate unknown values and not punctuation.</reason>
-		</ignore>
-	</file>
 </se-lint-ignore>
